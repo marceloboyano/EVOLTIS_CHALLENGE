@@ -18,10 +18,9 @@ Es una aplicación con WebForms que tiene un Crud de empleados y una busqueda, l
 ## Configuración
 
 1. Debemos modificar la cadena de conexón `en el preyecto de Presentacion hacemos doble click en el archivo web.config`
-2. Editar ` <connectionStrings>
-    <add name="MyConnection" connectionString="Data Source=YOUR CONNECTION HERE;Initial Catalog=MyDataBase;Trusted_Connection = True;User ID=sa;Password=1234567;TrustServerCertificate = True;" />
+2. Editar `Data Source=YOUR CONNECTION HERE; User ID=sa;Password=1234567`
    
-  </connectionStrings>` debemos editar la cadena de coneccion "YOUR CONNECTION HERE" por el nombre de la instancia que tenemos de Sql server
+ debemos editar la cadena de coneccion "YOUR CONNECTION HERE" por el nombre de la instancia que tenemos de Sql server
   y se agregara la id y password en caso de tenerla. Guardar los cambios.
 
 ## Uso
